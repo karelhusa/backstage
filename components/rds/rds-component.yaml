@@ -23,5 +23,6 @@ spec:
   providesApis:
     - rds-rest-api
   dependsOn:
-    - rds-db
+    - resource:rds-db
+
 
