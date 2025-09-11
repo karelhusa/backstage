@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gist
+spec:
+  type: business-unit
+  profile:
+    displayName: GIST
+    email: gist@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+

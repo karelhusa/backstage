@@ -9,6 +9,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: team-c
+  owner: gist
   definition:
     $text: ./rds-oas.yaml
