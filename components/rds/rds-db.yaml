@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: rds-db
+  description: Subjects database
+spec:
+  type: database
+  system: rds

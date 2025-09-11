@@ -22,4 +22,6 @@ spec:
   system: CRM
   providesApis:
     - rds-rest-api
+  dependsOn:
+    - rds-db
 
