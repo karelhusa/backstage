@@ -4,7 +4,7 @@ metadata:
   name: rds-rest-api
   description: Daňové subjekty REST API
   tags:
-    - subjekt
+    - rest
 
 spec:
   type: openapi
