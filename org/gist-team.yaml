@@ -8,4 +8,4 @@ spec:
     displayName: GIST
     email: gist@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
-  children: []
+  children: [analysis,devel]
