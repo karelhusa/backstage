@@ -20,3 +20,6 @@ spec:
   lifecycle: production
   owner: RDS Team
   system: CRM
+  providesApis:
+    - rds-rest-api
+

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: rds-rest-api
+  description: Daňové subjekty REST API
+  tags:
+    - Subjekt
+
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: ./rds-oas.yaml
