@@ -6,3 +6,4 @@ metadata:
 spec:
   type: database
   system: rds
+  owner: gist
