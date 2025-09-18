@@ -5,6 +5,12 @@ metadata:
   description: Daňové subjekty REST API
   tags:
     - rest
+  links:
+    - url: https://registr.cz/api/v1
+      title: PROD
+    - url: https://registr-test.cz/api/v1
+      title: TEST
+
 
 spec:
   type: openapi

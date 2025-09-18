@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: NazevApi
+  description: |
+    Stručný popis API.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: NazevSkupiny
+  definition:
+    $text: ./PetStore-OpenAPI.yaml
