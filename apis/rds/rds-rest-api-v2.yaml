@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: rds-rest-api
-  description: Daňové subjekty REST API
+  name: rds-rest-api-v2
+  description: Daňové subjekty REST API v2
   tags:
     - rest
 
 spec:
   type: openapi
-  lifecycle: retired
+  lifecycle: published
   owner: gist
   definition:
     $text: ./rds-oas.yaml
